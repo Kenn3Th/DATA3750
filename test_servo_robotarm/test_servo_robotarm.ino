@@ -20,8 +20,8 @@ void loop() {
 }
 
 /*** 
-A1 = roterer kroppe til robotarmen
+A1 = roterer kroppen til robotarmen
 A0 = hev/senk ytterste ledd -> 0 = nederst
-6 = hev/sen innerste ledd -> 0 = nederst
+6 = hev/senk innerste ledd -> 0 = nederst
 9 = klypa -> 180 = åpen -> 115 = stengt
 ***/
