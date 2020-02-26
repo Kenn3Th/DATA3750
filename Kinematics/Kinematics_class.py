@@ -1,12 +1,13 @@
 '''
-This class is for a two jointed robotic arm.
+This class is for a 2DOF robotic arm.
 It has two function, inverse kinematics and forward kinematics
 '''
 
 import numpy as np
 
 class Kinematics:
-
+    
+    #Sets the length of inner and outer arm of the robot
     def __init__(self, inner_length, outer_length):
         self.inner_length = inner_length
         self.outer_length = outer_length
@@ -17,10 +18,10 @@ class Kinematics:
         a2 = self.outer_length
         #Calculating Second angle
         q2 = np.arccos((X**2+Y**2-a1**2-a2**2)/(2*a1*a2))
+        #Calculating first angle
         phi = Y/float(X)
         theta = (a2*np.sin(q2))/(a1+a2*np.cos(q2))
-        #Calculating first angle
-        q1 = np.arctan(phi) - np.arctan(theta) 
+        q1 = np.arctan(phi) - np.arctan(theta) #First angle
         return q1, q2
 
     #Forward kinematics
