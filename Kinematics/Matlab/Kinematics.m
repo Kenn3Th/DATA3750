@@ -3,8 +3,8 @@ classdef Kinematics
     %for a two link robot
     
     properties
-        inner_length = 0;
-        outer_length = 0;
+        inner_length;
+        outer_length;
     end
     
     methods
