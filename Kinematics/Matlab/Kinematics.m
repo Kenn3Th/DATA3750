@@ -8,7 +8,8 @@ classdef Kinematics
     end
     
     methods
-        %Inverse kinematics
+    
+        %Sets the length of inner and outer arm of the 2DOF robot
         function arm = Kinematics(length1,length2)
             arm.inner_length = length1;
             arm.outer_length = length2;
