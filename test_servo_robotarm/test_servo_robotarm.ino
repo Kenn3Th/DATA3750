@@ -1,3 +1,7 @@
+/*** 
+Kode for å sette servoene i rikitig posisjon før monatsje
+***/
+
 #include <Servo.h>
 Servo myservo;
 int pos;
