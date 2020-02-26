@@ -1,5 +1,6 @@
 /*** 
-Kode for å sette servoene i rikitig posisjon før monatsje
+Kode for å teste at servoene fungerer og 
+hvilken pin som tilhører hvilken servo
 ***/
 
 #include <Servo.h>
