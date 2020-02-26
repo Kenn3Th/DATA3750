@@ -1,3 +1,8 @@
+/*** 
+Kode for å teste at servoene fungerer og 
+hvilken pin som tilhører hvilken servo
+***/
+
 #include <Servo.h>
 Servo myservo;
 int pos;

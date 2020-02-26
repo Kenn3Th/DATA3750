@@ -1,4 +1,4 @@
-int servopin = A0;
+#define servopin A0;
 int myangle;
 int pulsewidth;
 
