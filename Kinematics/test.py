@@ -1,3 +1,9 @@
+"""
+Handles user input from the terminal and test if 
+it can connect with the Kinematics_class.py
+Also tests for forward and inverse kinematics
+"""
+
 import numpy as np
 import Kinematics_class as Kc
 
