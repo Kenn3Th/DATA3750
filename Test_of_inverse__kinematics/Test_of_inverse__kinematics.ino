@@ -35,5 +35,3 @@ void loop() {
   homeOuterArm(outerArm);
   homeClaw(claw);
 }
-
-}
